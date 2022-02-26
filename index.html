@@ -71,7 +71,7 @@
                             </div>
                             <div class="hero-btn">
                                 <a class="btn" href="#contact">Hire Me</a>
-                                <a class="btn" href="">Download CV</a>
+                                <a class="btn" href="https://drive.google.com/file/d/1ctUJRLy89oY2yslgHjrUHIe1IChG40i-/view?usp=sharing">Download CV</a>
                             </div>
                             <div class="hero-text">
                                 <div class="p-2"></div>
@@ -296,7 +296,7 @@
 	<div class="container py-2">
 		<div class="h1 text-center text-dark" id="pageHeaderTitle">Check Out Some of My Works.</div>
         <p>These Portfolio will speak for my skills. Feel free to explore some of my best portfolios. You can find all of my portfolios <a href="https://github.com/bhawna94110" target="_blank">here</a> :)</p>
-		<article class="postcard light blue">
+		<article class="postcard light blue"><!-- 1. Whatsapp -->
 			<a class="postcard__img_link" href="https://whatsappp-chat-analyzer.herokuapp.com/" target="_blank">
 				<img class="postcard__img" src="img/1.jpg" alt="Image Title" />
 			</a>
@@ -308,141 +308,143 @@
 					</time>
 				</div>
 				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">This app automatically preprocess the whatsapp chat (individial or group chat) and show statistical result and visualisation with word cloud and varoius graphs. You need to import whatsapp chat for this app to work. Don't worry this app does not save any chat data so its safe to use.</div>
+				<div class="postcard__preview-txt">Built in top of streamlit, this app pre-process whatsapp text using nlp methods and regex pattern, It takes raw data from .txtfile and convert that data into meaningful insights using statistics and visualisation techniques. It generates statistics such as total number of messages, total words spoken with timeline, correlation map of weekly activity, wordcloud and bar graph of most spoken words and emojis.</div>
 				<ul class="postcard__tagbox">
-					<!-- <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li> -->
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Streamlit</li>
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Statistics</li>
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Regex</li>
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>NLP</li>
 					<li class="tag__item play blue">
-						<a href="#"><i class="fab fa-github"></i>Github</a>
+						<a href="https://github.com/bhawna94110/whatsapp-chat-analyzer-heroku" target="_blank"><i class="fab fa-github"></i>Github</a>
 					</li>
 				</ul>
 			</div>
 		</article>
-		<article class="postcard light red">
-			<a class="postcard__img_link" href="#">
-				<img class="postcard__img" src="img/2.jpg" alt="Image Title" />	
-			</a>
-			<div class="postcard__text t-dark">
-				<h1 class="postcard__title red"><a href="#">Email Spam Classifier</a></h1>
-				<div class="postcard__subtitle small">
-					<time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-					</time>
-				</div>
-				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
-				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play red">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
-					</li>
-				</ul>
-			</div>
-		</article>
-		<article class="postcard light green">
-			<a class="postcard__img_link" href="#">
+        <article class="postcard light green"><!-- 2. Recommendation Engine -->
+			<a class="postcard__img_link" href="https://github.com/bhawna94110/Movie_recommendation" target="_blank">
 				<img class="postcard__img" src="img/3.jpg" alt="Image Title" />
 			</a>
 			<div class="postcard__text t-dark">
-				<h1 class="postcard__title green"><a href="#">Movie Recommendation System</a></h1>
+				<h1 class="postcard__title green"><a href="https://github.com/bhawna94110/Movie_recommendation" target="_blank">Movie Recommendation System</a></h1>
 				<div class="postcard__subtitle small">
 					<time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+						<i class="fas fa-calendar-alt mr-2"></i>Thrus, Nov 5th 2021
 					</time>
 				</div>
 				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<div class="postcard__preview-txt">This recommendation system is made on 4000+ movies features. After pre-processing of all features converted them into CountVectorizer vector. Then applying cosine similarity between these vectors and filtering top 5 similar vectors. Then fetching top 5 movies image from tmbdAPI and integrating them with streamlit. For better understanding look at below demo.</div>
 				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play green">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Streamlit</li>
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Unsupervised</li>
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>API</li>
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>NLP</li>
+					<li class="tag__item play blue">
+						<a href="https://github.com/bhawna94110/Movie_recommendation" target="_blank"><i class="fab fa-github"></i>Github</a>
 					</li>
 				</ul>
 			</div>
 		</article>
-		<article class="postcard light yellow">
-			<a class="postcard__img_link" href="#">
-				<img class="postcard__img" src="img/django.png" alt="Image Title" />
+        <article class="postcard light blue"><!-- 3. Google Playstore Reviews -->
+			<a class="postcard__img_link" href="https://github.com/bhawna94110/Sentiment-Analysis-Google-Playstore-Reviews" target="_blank">
+				<img class="postcard__img" src="img/6.jpg" alt="Image Title" />
 			</a>
 			<div class="postcard__text t-dark">
-				<h1 class="postcard__title yellow"><a href="#">Django ToDo App</a></h1>
+				<h1 class="postcard__title blue"><a href="https://github.com/bhawna94110/Sentiment-Analysis-Google-Playstore-Reviews" target="_blank">
+                    Sentiment Analysis of Google Playstore Reviews</a></h1>
 				<div class="postcard__subtitle small">
 					<time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+						<i class="fas fa-calendar-alt mr-2"></i>Thrus, Sept 10th 2021
 					</time>
 				</div>
 				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<div class="postcard__preview-txt">Scrapped data from google play store then pre-processed the raw data using NLP techniques into clean data. Clean data converted into vectors using TFIDF and CountVectorizer. Used popular supervised machine learning algorithms such as KNN, LR, SVM, Decision Tree, Random Forest, GBDT. Hyperparameter tuning of each and every algorithm using AUC ROC metric. Got 95% AUC ROC score on Decision tree after on validation set. Best model out of 6.
+                </div>
 				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play yellow">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Scrapping</li>
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Supervised</li>
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Hyperparameter tuning</li>
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>NLP</li>
+					<li class="tag__item play blue">
+						<a href="https://github.com/bhawna94110/Sentiment-Analysis-Google-Playstore-Reviews" target="_blank"><i class="fab fa-github"></i>Github</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="postcard light red"><!-- 3. Email Spam Classification -->
+			<a class="postcard__img_link" href="https://github.com/bhawna94110/E-mail_spam_classification" target="_blank">
+				<img class="postcard__img" src="img/2.jpg" alt="Image Title" />	
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title red"><a href="https://github.com/bhawna94110/E-mail_spam_classification" target="_blank">Email Spam Classifier</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Sun, Sept 20th 2021
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">Given a mail text, this app will predict whether mail is spam or genuine using various popular popular machine learning models.</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Supervised</li>
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>NLP</li>
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>EDA</li>
+					<li class="tag__item play blue">
+						<a href="https://github.com/bhawna94110/E-mail_spam_classification" target="_blank"><i class="fab fa-github"></i>Github</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		
+		<article class="postcard light yellow"><!-- 4. TODO APP -->
+			<a class="postcard__img_link" href="https://github.com/bhawna94110/ToDo-App-Django3" target="_blank">
+				<img class="postcard__img" src="img/django.png" alt="Image Title" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title yellow"><a href="https://github.com/bhawna94110/ToDo-App-Django3" target="_blank">Django ToDo App</a></h1>
+				<div class="postcard__subtitle small">
+					<time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, Dec 25th 2021
+					</time>
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt">A fully fledged website with login authentication and all CRUD operations in SQLite  built in top of django3 framework. User can sign up and login into the app and create todo list and do various tasks. See below demo for detailed explanation.</div>
+				<ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Django3</li>
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>SQLite Database</li>
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>CRUD operations</li>
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Authentication</li>
+					<li class="tag__item play blue">
+						<a href="https://github.com/bhawna94110/ToDo-App-Django3" target="_blank"><i class="fab fa-github"></i>Github</a>
 					</li>
 				</ul>
 			</div>
 		</article>
         <article class="postcard light green">
-			<a class="postcard__img_link" href="#">
+			<a class="postcard__img_link" href="https://github.com/bhawna94110/Data-Analysis-using-SQLite-on-IMDB-Dataset" target="_blank"><!-- 5. IMDB SQL -->
 				<img class="postcard__img" src="img/5.jpg" alt="Image Title" />
 			</a>
 			<div class="postcard__text t-dark">
-				<h1 class="postcard__title green"><a href="#">IMDB SQL Analysis</a></h1>
+				<h1 class="postcard__title green"><a href="https://github.com/bhawna94110/Data-Analysis-using-SQLite-on-IMDB-Dataset" target="_blank">IMDB SQL Analysis</a></h1>
 				<div class="postcard__subtitle small">
 					<time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+						<i class="fas fa-calendar-alt mr-2"></i>Wed, August 4th 2021
 					</time>
 				</div>
 				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+				<div class="postcard__preview-txt">Data analysis on IMDB database using sqlite3 and pandas.</div>
 				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play green">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Data Analysis</li>
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Advance SQL queries</li>
+					<li class="tag__item play blue">
+						<a href="https://github.com/bhawna94110/Data-Analysis-using-SQLite-on-IMDB-Dataset" target="_blank"><i class="fab fa-github"></i>Github</a>
 					</li>
 				</ul>
 			</div>
 		</article>
 
-        <article class="postcard light blue">
-			<a class="postcard__img_link" href="#">
-				<img class="postcard__img" src="img/6.jpg" alt="Image Title" />
-			</a>
-			<div class="postcard__text t-dark">
-				<h1 class="postcard__title blue"><a href="#">
-                    Sentiment Analysis of Google Playstore Reviews</a></h1>
-				<div class="postcard__subtitle small">
-					<time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-					</time>
-				</div>
-				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
-				<ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play blue">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
-					</li>
-				</ul>
-			</div>
-		</article>
+
 	</div>
 </section>
 <!-- partial -->
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -466,20 +468,31 @@
                             <div class="contact-form">
                                 <div id="success"></div>
 								<form
-  action="https://formspree.io/f/myyowyyq"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+                                        action="https://formspree.io/f/myyowyyq"
+                                        method="POST"
+                                        >
+                                        <div class="control-group">
+                                            <input class="form-control" id="name" type="text" name="name" placeholder="Your Name">
+                                        <p class="help-block"></p>
+                                    </div>
+
+
+                                        <div class="control-group">
+                                            <input class="form-control" id="email" type="email" name="email" placeholder="Your Email">
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input class="form-control" id="subject" type="subject" name="subject" placeholder="Subject">
+                                    <p class="help-block"></p>
+                                </div>
+                                    <div class="control-group">
+                                            <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                                        </div>
+                                        
+                                        <div>
+                                            <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                        </div>
+                                        </form>
                                 <!--<form name="sentMessage" id="contactForm" novalidate="novalidate">
                                     <div class="control-group">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
